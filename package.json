@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-simplest-helloworld-project",
+  "description": "Simplest nodejs hello world app",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "cbmrham",
+  "repository": {
+    "type": "git",
+    "url": "https://cbmrham/nodejs-simplest-helloworld-project.git"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
